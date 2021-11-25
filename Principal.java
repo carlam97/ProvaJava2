@@ -1,12 +1,15 @@
 public class Principal {
     public static void main(String[] args) {
         
-        retangulo Retangulo = new retangulo();
+        Retangulo retangulo = new Retangulo();
 
-       retangulo.setfigura(25000);
-       retangulo.setarea(25000);
-       retangulo.setperimetro(25000);
-       retangulo.imprimeExtrato();
+       
+       retangulo.setLado(4);
+
+       System.out.println(retangulo.getNome());
+       System.out.println(retangulo.getPerimetro());
+       System.out.println(retangulo.getArea());
+       System.out.println(retangulo.getLado());
     }
     
 }
